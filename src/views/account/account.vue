@@ -25,6 +25,9 @@
       <div class="">
         <button class="btn btn-primary w-100" @click="login">Login</button>
       </div>
+      <div class="mt-3">
+        <p @click="loginMode = false">Register form</p>
+      </div>
     </div>
     <div class="login__content" v-else>
       <div class="mb-3">
@@ -59,6 +62,9 @@
       <div class="">
         <button class="btn btn-primary w-100" @click="signup">Signup</button>
       </div>
+      <div class="mt-3">
+        <p @click="loginMode = true">Login</p>
+      </div>
     </div>
     <div class="login__image  d-none d-lg-block">
       <img src="@/assets/images/login.png"/>
@@ -74,7 +80,9 @@ export default {
   },
   methods: {
     login() {
-
+      this.$toast.success('success login')
+      this.$toast.error('some error')
+      this.$toast.info('some info')
     }
   }
 };
