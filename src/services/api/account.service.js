@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default {
-    signIn,
+    signup,
     login,
 };
 
@@ -13,7 +13,7 @@ export default {
 //   });
 // }
 
-export function signIn(data) {
+export function signup(data) {
     return axios({
         method: "POST",
         url: process.env.BASE_URL + '/register',

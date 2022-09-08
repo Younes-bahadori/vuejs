@@ -10,6 +10,7 @@
             class="form-control"
             id="loginEmail"
             placeholder="name@example.com"
+            v-model="form.email"
         />
       </div>
       <div class="mb-3">
@@ -20,6 +21,8 @@
             type="password"
             class="form-control"
             id="loginPassword"
+            v-model="form.password"
+
         />
       </div>
       <div class="">
@@ -36,6 +39,8 @@
             type="text"
             class="form-control"
             id="userName"
+            v-model="form.username"
+
         />
       </div>
       <div class="mb-3">
@@ -47,6 +52,8 @@
             class="form-control"
             id="exampleFormControlInput1"
             placeholder="name@example.com"
+            v-model="form.email"
+
         />
       </div>
       <div class="mb-3">
@@ -57,6 +64,8 @@
             type="password"
             class="form-control"
             id="password"
+            v-model="form.password"
+
         />
       </div>
       <div class="">
@@ -71,20 +80,7 @@
     </div>
   </div>
 </template>
-<script>
-export default {
-  data() {
-    return {
-      loginMode: false
-    }
-  },
-  methods: {
-    login() {
-      this.$toast.success('success login')
-      this.$toast.error('some error')
-      this.$toast.info('some info')
-    }
-  }
-};
+<script src="./account.js">
+
 </script>
 <style lang="scss" scoped src="./account.scss"></style>
