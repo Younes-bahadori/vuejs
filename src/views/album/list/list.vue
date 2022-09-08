@@ -17,6 +17,7 @@
         <div class="m-3 w-50">
           <label for="albumName" class="form-label">Album Name</label>
           <input
+              autocomplete="off"
               type="text"
               class="form-control"
               id="albumName"

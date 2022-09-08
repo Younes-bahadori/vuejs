@@ -4,6 +4,7 @@
       <div class="mb-3">
         <label for="userName" class="form-label w-100">User Name</label>
         <input
+            autocomplete="off"
             type="text"
             class="form-control"
             id="userName"
@@ -27,7 +28,7 @@
         <button class="btn btn-primary w-100" @click="login">Login</button>
       </div>
       <div class="mt-3">
-        <p @click="loginMode = false">Register form</p>
+        <p @click="loginMode = false" class="text-primary " role="button">Register form</p>
       </div>
     </div>
     <div class="login__content" v-else>
@@ -35,6 +36,7 @@
         <label for="userName" class="form-label w-100">User Name</label>
         <input
             type="text"
+            autocomplete="off"
             class="form-control"
             id="userName"
             v-model="form.username"
@@ -46,6 +48,7 @@
         >Email address</label
         >
         <input
+            autocomplete="off"
             type="email"
             class="form-control"
             id="exampleFormControlInput1"
@@ -70,7 +73,7 @@
         <button class="btn btn-primary w-100" @click="signup">Signup</button>
       </div>
       <div class="mt-3">
-        <p @click="loginMode = true">Login</p>
+        <p @click="loginMode = true" class="text-primary " role="button">Login Form</p>
       </div>
     </div>
     <div class="login__image  d-none d-lg-block">

@@ -8,20 +8,30 @@
         <h5>image looking good</h5>
         <button class="btn btn-outline-danger ">remove image</button>
       </div>
-      <div class="col-md3 col-sm-4 col-6 ">
-        <img src="https://picsum.photos/300/200/?random=2" alt="image ... |">
-        <h3>image looking good</h3>
-        <p>explore</p>
+      <div class="col-md3 col-sm-4 col-6  d-flex flex-column p-4 text-center">
+        <img src="https://picsum.photos/300/200/?random=2" class="border border-primary rounded-3" alt="image ... |">
+        <h5>image looking good</h5>
+        <button class="btn btn-outline-danger ">remove image</button>
       </div>
-      <div class="col-md3 col-sm-4 col-6">
-        <img src="https://picsum.photos/300/200/?random=3" alt="image ... |">
-        <h3>image looking good</h3>
-        <p>explore</p>
+      <div class="col-md3 col-sm-4 col-6  d-flex flex-column p-4 text-center">
+        <img src="https://picsum.photos/300/200/?random=3" class="border border-primary rounded-3" alt="image ... |">
+        <h5>image looking good</h5>
+        <button class="btn btn-outline-danger ">remove image</button>
       </div>
-      <div class="col-md3 col-sm-4 col-6">
-        <img src="https://picsum.photos/300/200/?random=4" alt="image ... |">
-        <h3>image looking good</h3>
-        <p>explore</p>
+      <div class="col-md3 col-sm-4 col-6  d-flex flex-column p-4 text-center">
+        <img src="https://picsum.photos/300/200/?random=4" class="border border-primary rounded-3" alt="image ... |">
+        <h5>image looking good</h5>
+        <button class="btn btn-outline-danger ">remove image</button>
+      </div>
+      <div class="col-md3 col-sm-4 col-6  d-flex flex-column p-4 text-center">
+        <img src="https://picsum.photos/300/200/?random=5" class="border border-primary rounded-3" alt="image ... |">
+        <h5>image looking good</h5>
+        <button class="btn btn-outline-danger ">remove image</button>
+      </div>
+      <div class="col-md3 col-sm-4 col-6  d-flex flex-column p-4 text-center">
+        <img src="https://picsum.photos/300/200/?random=6" class="border border-primary rounded-3" alt="image ... |">
+        <h5>image looking good</h5>
+        <button class="btn btn-outline-danger ">remove image</button>
       </div>
     </section>
   </main>

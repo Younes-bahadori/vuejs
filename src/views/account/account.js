@@ -7,9 +7,9 @@ export default {
     return {
       loginMode: false,
       form: {
-        username: "t1",
-        email: "y1@email.com",
-        password: "123456",
+        username: "",
+        email: "",
+        password: "",
       },
     };
   },
